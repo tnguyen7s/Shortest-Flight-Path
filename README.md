@@ -1,7 +1,7 @@
 # Java_AirportNetwork_Graph
 
-Create a graph data structures: airport as a vertex and route between two airports as a route
-Main problem solved by the app: find the shortest path for a flight to take to travel from airport A to airport B (using Dijkstra's algorithm)
+*Create a graph data structures: airport as a vertex and route between two airports as a route
+*Main problem solved by the app: find the shortest path for a flight to take to travel from airport A to airport B (using Dijkstra's algorithm)
 
 1. Class files: 
 + Airport implements Clonable: stores information of a vertex, override hashCode(), equals(), toString(), clone
