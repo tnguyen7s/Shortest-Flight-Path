@@ -9,7 +9,7 @@ public class App{
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         //receive password and username to get access database and use the graph API
-        char[] password = {'C', 'M', 'B', 'D', 'V', 'i', 'e', 't', 'n', 'a', 'm', '2', '0', '1', '9'};
+        char[] password = {'P', 'A', 'S', 'S', 'W', 'O', 'R', 'D'};
         AirportGraph graph = new AirportGraph("root", password);
         /*ask for operation code and execute the requested operation
         until users want to quit
