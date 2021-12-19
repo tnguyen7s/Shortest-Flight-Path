@@ -1,13 +1,14 @@
 # Java_AirportNetwork_Graph
-
-*Create a graph data structures: airport as a vertex and route between two airports as a route
-*Main problem solved by the app: find the shortest path for a flight to take to travel from airport A to airport B (using Dijkstra's algorithm)
+Which route I can take to travel between any two airports in the smallest amount of time?
+* This application creates a graph data structure: airports as vertices and routes between any two airports as an edge.
+* The problem: find the shortest path for a flight to take to travel from airport A to airport B (using Dijkstra's algorithm)
+* The application utilizes an open-source database that is created and maintained by OpenFlight. The link to the database can be found here: https://openflights.org/data.html
 
 1. Class files: 
 + Airport implements Clonable: stores information of a vertex, override hashCode(), equals(), toString(), clone
 + Route implements Clonable: stores information of an edge, override  hashCode(), equals(), toString(), clone()
-+ Data: undertakes the communication with MySQL (loading data from MySQL to the app, inserting/updating/deleting data in MySQL database)
-+ AirportGraph extends Data (non-generic class): all operations related to graphs 
++ Data: undertakes the communication between the application and the MySQL DBMSs(loading data from MySQL to the app, inserting/updating/deleting data into/from MySQL database)
++ AirportGraph extends Data (non-generic class): all operations related to the graph.
 + Pair implements Comparable interface
 
 2. Libraries:
